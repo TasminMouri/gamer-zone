@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 /* shared styles */
+*{
+    font-family: 'Work Sans', sans-serif;
+    border: 0;
+    padding: 0;
+}
 .primary-color{
     color: #FF42A5;
 }
@@ -9,16 +14,15 @@ linear-color{
     -webkit-background-clip: text;
 }
 /* header styles */
-header{
-    padding: 20px 200px;
-}
 /* nav related styles */
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 0 150px;
 }
 .nav-logo{
     display: flex;
+    justify-content: ;
     gap: 20px;
     align-items: center;
 }
@@ -50,3 +54,59 @@ nav img{
     height: 40px;
 }
 /* banner related styles */
+.banner-content{
+    border: 1px solid red;
+    width: 50%;
+    background: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    padding: 148px 100px 148px 150px;
+}
+.banner-img{
+    border: 1px solid blue;
+    width: 45%;
+    padding-right: 200px;
+}
+.banner-img img{
+    height: 100%;
+}
+.banner{
+    border: 2px solid orangered;
+    display: flex;
+    gap: 20px;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.linear-color{
+    background-image: linear-gradient(to bottom,#F948B2,#8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.banner-description{
+    color: #534C64;
+    margin-bottom: 17px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button{
+    margin-top: 35px;
+}
+.btn-primary, .rogue-btn{
+    border-radius: 48px;
+    background: linear-gradient(to bottom,#F948B2,#f158cb);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 30px;
+    border: 0;
+}
+.rogue-btn{
+    margin-left: 20px;
+    background: #4EC5F7;
+}
