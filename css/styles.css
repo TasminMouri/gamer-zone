@@ -55,14 +55,12 @@ nav img{
 }
 /* banner related styles */
 .banner-content{
-    border: 1px solid red;
     width: 50%;
     background: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
     padding: 148px 100px 148px 150px;
 }
 .banner-img{
-    border: 1px solid blue;
     width: 45%;
     padding-right: 200px;
 }
@@ -70,7 +68,6 @@ nav img{
     height: 100%;
 }
 .banner{
-    border: 2px solid orangered;
     display: flex;
     gap: 20px;
 }
