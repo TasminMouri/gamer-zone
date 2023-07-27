@@ -10,7 +10,6 @@
     }
     nav>ul{
         flex-direction: column;
-        padding-right: 50px;
     }
     .nav-logo{
         justify-content: center;
@@ -44,9 +43,6 @@
     .linear-color{
         font-size: 3rem;
     }
-    .description{
-        font-size: 5px;
-    }
     .btn-primary, .rogue-btn{
         border-radius: 30px;
         background: linear-gradient(to bottom,#F948B2,#f158cb);
@@ -58,5 +54,21 @@
     .rogue-btn{
         margin-left: 20px;
         background: #4EC5F7;
+    }
+    /* funny-videos section  */
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    .funny-videos{
+        padding: 0 30px;
+    }
+    .card img{
+        width: 100%;
+    }
+    .section-title, .linear-txt-size{
+        font-size: 22px;
+    }
+    .section-description, .banner-description{
+        font-size: 10px;
     }
 }

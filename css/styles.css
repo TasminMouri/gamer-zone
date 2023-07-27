@@ -13,6 +13,9 @@ linear-color{
     color: transparent;
     -webkit-background-clip: text;
 }
+body{
+    /* padding: 0 150px; */
+}
 /* header styles */
 /* nav related styles */
 nav{
@@ -106,4 +109,33 @@ nav img{
 .rogue-btn{
     margin-left: 20px;
     background: #4EC5F7;
+}
+/* funny-videos section styles */
+.funny-videos{
+    padding: 0 140px;
+}
+.section-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    }
+.linear-txt-size{
+    font-size: 48px;
+    font-weight: 700;
+}
+.section-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card img{
+    width: 280px;
 }
