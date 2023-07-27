@@ -25,7 +25,6 @@ nav{
 }
 .nav-logo{
     display: flex;
-    justify-content: ;
     gap: 20px;
     align-items: center;
 }
@@ -209,3 +208,49 @@ nav img{
  .role{
     margin-left: 80px;
  }
+ /* footer styles */
+ footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px 0 120px 0;
+ }
+ footer>ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: #FFF;
+}
+footer li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #FFF;
+}
+.privacy-description{
+    color: #FFF;
+}
+.footer-logo{
+    justify-content: center;
+}
