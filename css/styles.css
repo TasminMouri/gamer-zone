@@ -8,13 +8,10 @@
 .primary-color{
     color: #FF42A5;
 }
-linear-color{
+.linear-color{
     background-image: linear-gradient(to bottom,#F948B2,#8758F1);
     color: transparent;
     -webkit-background-clip: text;
-}
-body{
-    /* padding: 0 150px; */
 }
 /* header styles */
 /* nav related styles */
@@ -247,6 +244,7 @@ footer li{
     justify-content: center;
     gap: 50px;
     color: #FFF;
+    cursor: pointer;
 }
 .privacy-description{
     color: #FFF;
